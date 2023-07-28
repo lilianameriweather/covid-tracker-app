@@ -1,6 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\COVIDTrackerApp",
+    "\\COVIDTrackerApp\\COVIDTrackerApp",
+    "\\COVIDTrackerApp\\COVIDTrackerApp\\Controllers",
+    "\\COVIDTrackerApp\\COVIDTrackerApp\\Models",
+    "\\COVIDTrackerApp\\COVIDTrackerApp\\Services",
+    "\\COVIDTrackerApp\\COVIDTrackerApp\\Views",
+    "\\COVIDTrackerApp\\COVIDTrackerApp\\Views\\Home",
+    "\\COVIDTrackerApp\\COVIDTrackerApp\\wwwroot",
+    "\\COVIDTrackerApp\\COVIDTrackerApp\\wwwroot\\css"
   ],
+  "SelectedNode": "\\COVIDTrackerApp\\COVIDTrackerApp\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }
