@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qbsmAN3OS6KRLWEw6vFLVgV1CRGlVAt4nwsbM7MOZ3AasAJWoAQSWbbvEzBjLqfarS1aY8BtfymO/r/YzxO8ww==",
+  "dgSpecHash": "36uTwaghQR//jw0VzGXKuKegis+ShNlodTgwxp06feKnyaNn/CThhake2vSB7wDCtI32MOdAgvdRSKCHkC1AcQ==",
   "success": true,
   "projectFilePath": "C:\\SetWorks\\COVIDTrackerApp\\COVIDTrackerApp\\COVIDTrackerApp\\COVIDTrackerApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\lilia\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
