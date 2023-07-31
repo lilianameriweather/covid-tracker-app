@@ -18,22 +18,36 @@ namespace COVIDTrackerApp.Controllers
 
         public async Task<IActionResult> Index(int? searchedDate = null, string? searchedState = null)
         {
-            List<CovidCase> covidCases;
+           try
+            {
+                List<CovidCase> covidCases;
 
-            if (searchedDate.HasValue)
-            {
-                covidCases = await _covidCaseService.GetCasesByDate(searchedDate.Value);
+                if (searchedDate.HasValue)
+                {
+                    covidCases = await _covidCaseService.GetCasesByDate(searchedDate.Value);
+                }
+                else if (!string.IsNullOrWhiteSpace(searchedState))
+                {
+                    covidCases = await _covidCaseService.GetCasesByState(searchedState);
+                }
+                else
+                {
+                    covidCases = await _covidCaseService.GetAllCovidCases();
+                }
+                return View(covidCases);
             }
-            else if (!string.IsNullOrWhiteSpace(searchedState))
+            catch (Exception ex)
             {
-                covidCases = await _covidCaseService.GetCasesByState(searchedState);
-            }
-            else
-            {
-                covidCases = await _covidCaseService.GetAllCovidCases();
-            }
+                _logger.LogError(ex, "An error occurred while processing the " +
+                    "Index method in HomeController");
 
-            return View(covidCases);
+                return View("Error");
+            }
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
         }
 
 
