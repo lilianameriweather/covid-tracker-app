@@ -55,26 +55,32 @@
     ]
   },
   "packageFolders": {
-    "/Users/lilianameriweather/.nuget/packages/": {}
+    "C:\\Users\\lilia\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lilianameriweather/CovidTrackerApp/covid-tracker-app/COVIDTrackerApp/COVIDTrackerApp/COVIDTrackerApp.csproj",
+      "projectUniqueName": "C:\\SetWorks\\COVIDTrackerApp\\COVIDTrackerApp\\COVIDTrackerApp\\COVIDTrackerApp.csproj",
       "projectName": "COVIDTrackerApp",
-      "projectPath": "/Users/lilianameriweather/CovidTrackerApp/covid-tracker-app/COVIDTrackerApp/COVIDTrackerApp/COVIDTrackerApp.csproj",
-      "packagesPath": "/Users/lilianameriweather/.nuget/packages/",
-      "outputPath": "/Users/lilianameriweather/CovidTrackerApp/covid-tracker-app/COVIDTrackerApp/COVIDTrackerApp/obj/",
+      "projectPath": "C:\\SetWorks\\COVIDTrackerApp\\COVIDTrackerApp\\COVIDTrackerApp\\COVIDTrackerApp.csproj",
+      "packagesPath": "C:\\Users\\lilia\\.nuget\\packages\\",
+      "outputPath": "C:\\SetWorks\\COVIDTrackerApp\\COVIDTrackerApp\\COVIDTrackerApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/lilianameriweather/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\lilia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
-        "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -117,7 +123,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
