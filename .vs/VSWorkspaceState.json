@@ -3,14 +3,8 @@
     "",
     "\\COVIDTrackerApp",
     "\\COVIDTrackerApp\\COVIDTrackerApp",
-    "\\COVIDTrackerApp\\COVIDTrackerApp\\Controllers",
-    "\\COVIDTrackerApp\\COVIDTrackerApp\\Models",
-    "\\COVIDTrackerApp\\COVIDTrackerApp\\Services",
-    "\\COVIDTrackerApp\\COVIDTrackerApp\\Views",
-    "\\COVIDTrackerApp\\COVIDTrackerApp\\Views\\Home",
-    "\\COVIDTrackerApp\\COVIDTrackerApp\\wwwroot",
-    "\\COVIDTrackerApp\\COVIDTrackerApp\\wwwroot\\css"
+    "\\COVIDTrackerApp\\COVIDTrackerApp\\wwwroot"
   ],
-  "SelectedNode": "\\COVIDTrackerApp\\COVIDTrackerApp\\Controllers\\HomeController.cs",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }

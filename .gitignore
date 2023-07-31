@@ -4,6 +4,14 @@
 
 /COVIDTrackerApp/.vs/COVIDTrackerApp/FileContentIndex
 
+/.vs
+
+/.DS_Store
+
 /COVIDTrackerApp/.DS_Store
 
 /COVIDTrackerApp/.vs
+
+/COVIDTrackerApp/COVIDTrackerApp/bin
+
+/COVIDTrackerApp/COVIDTrackerApp/obj
