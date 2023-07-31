@@ -10,13 +10,16 @@ namespace COVIDTrackerApp.Controllers
     [ApiController]
     public class CovidCaseApiController : ControllerBase
     {
+
         private readonly ILogger<CovidCaseApiController> _logger;
         private readonly ICovidCaseService _covidCaseService;
-        public CovidCaseApiController(ILogger<CovidCaseApiController> logger, ICovidCaseService covidCaseService)
+
+        public CovidCaseApiController(
+            ILogger<CovidCaseApiController> logger,
+            ICovidCaseService covidCaseService)
         {
             _logger = logger;
             _covidCaseService= covidCaseService;
-
         }
 
         [HttpGet("CovidCases")]
@@ -28,12 +31,16 @@ namespace COVIDTrackerApp.Controllers
 
                 // Order By "Positive" descending
                 covidCases = covidCases.OrderByDescending(c => c.Positive).ToList();
+
+                // StatusCode(200)
                 return Ok(covidCases);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error processing GetAllCovidCases");
-                return StatusCode(500, "Error fetching data from Api");
+                // Meaningful message and stack trace
+                _logger.LogError(ex, "An error occurred while processing GetAllCovidCases");
+                //500 Internal Server Error status code
+                return StatusCode(500, "An error occurred while fetching data from the API. Please try again later.");
             }
         }
     }

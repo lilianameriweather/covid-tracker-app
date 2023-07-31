@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\build\COVIDTrackerApp.props" />
+  <Import Project="../build/COVIDTrackerApp.props" />
 </Project>
