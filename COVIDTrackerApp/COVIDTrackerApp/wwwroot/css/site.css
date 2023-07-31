@@ -16,3 +16,47 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/*Table Style*/
+.text-center {
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #212529;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+tr:hover {
+    background-color: #c8c8c8;
+}
+/*Search Bar*/
+.search-bar {
+    background-color: #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+    justify-items:center;
+    display: flex;
+    align-items: center;
+}
+
+.form-group{
+    align-items: center;
+    display: flex;
+    padding-right: 2em;
+}
