@@ -72,55 +72,5 @@ namespace COVIDTrackerApp.Services
             return allCovidCases.Where(cc => cc.State.Equals(filterState, StringComparison.OrdinalIgnoreCase)).ToList();
         }
 
-        //public async Task<List<CovidCase>> GetCasesByDate(int filterDate)
-        //{
-        //    List<CovidCase> covidCases = new List<CovidCase>();
-
-        //    try
-        //    {
-        //        HttpResponseMessage response = await _httpClient.GetAsync(_apiUrl);
-        //        response.EnsureSuccessStatusCode();
-
-        //        string content = await response.Content.ReadAsStringAsync();
-
-        //        covidCases = JsonConvert.DeserializeObject<List<CovidCase>>(content);
-
-        //        // Filter list by provided date
-        //        covidCases = covidCases.Where(cc => cc.Date == filterDate).ToList();
-
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        _logger.LogError(ex, "Error processing GetCasesByDate");
-        //    }
-
-        //    return covidCases;
-        //}
-
-        //public async Task<List<CovidCase>> GetCasesByState(string filterState)
-        //{
-        //    List<CovidCase> covidCases = new List<CovidCase>();
-
-        //    try
-        //    {
-        //        HttpResponseMessage response = await _httpClient.GetAsync(_apiUrl);
-        //        response.EnsureSuccessStatusCode();
-
-        //        string content = await response.Content.ReadAsStringAsync();
-
-        //        covidCases = JsonConvert.DeserializeObject<List<CovidCase>>(content);
-
-        //        // Filter list by provided State
-        //        covidCases = covidCases.Where(cc => cc.State.Equals(filterState)).ToList();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        _logger.LogError(ex, "Error processing GetCasesByState");
-        //    }
-
-        //    return covidCases;
-        //}
-
-
     }
 }
