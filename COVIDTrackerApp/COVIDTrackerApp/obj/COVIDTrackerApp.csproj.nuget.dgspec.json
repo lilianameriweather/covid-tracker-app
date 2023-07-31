@@ -1,32 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SetWorks\\COVIDTrackerApp\\COVIDTrackerApp\\COVIDTrackerApp\\COVIDTrackerApp.csproj": {}
+    "/Users/lilianameriweather/CovidTrackerApp/covid-tracker-app/COVIDTrackerApp/COVIDTrackerApp/COVIDTrackerApp.csproj": {}
   },
   "projects": {
-    "C:\\SetWorks\\COVIDTrackerApp\\COVIDTrackerApp\\COVIDTrackerApp\\COVIDTrackerApp.csproj": {
+    "/Users/lilianameriweather/CovidTrackerApp/covid-tracker-app/COVIDTrackerApp/COVIDTrackerApp/COVIDTrackerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SetWorks\\COVIDTrackerApp\\COVIDTrackerApp\\COVIDTrackerApp\\COVIDTrackerApp.csproj",
+        "projectUniqueName": "/Users/lilianameriweather/CovidTrackerApp/covid-tracker-app/COVIDTrackerApp/COVIDTrackerApp/COVIDTrackerApp.csproj",
         "projectName": "COVIDTrackerApp",
-        "projectPath": "C:\\SetWorks\\COVIDTrackerApp\\COVIDTrackerApp\\COVIDTrackerApp\\COVIDTrackerApp.csproj",
-        "packagesPath": "C:\\Users\\lilia\\.nuget\\packages\\",
-        "outputPath": "C:\\SetWorks\\COVIDTrackerApp\\COVIDTrackerApp\\COVIDTrackerApp\\obj\\",
+        "projectPath": "/Users/lilianameriweather/CovidTrackerApp/covid-tracker-app/COVIDTrackerApp/COVIDTrackerApp/COVIDTrackerApp.csproj",
+        "packagesPath": "/Users/lilianameriweather/.nuget/packages/",
+        "outputPath": "/Users/lilianameriweather/CovidTrackerApp/covid-tracker-app/COVIDTrackerApp/COVIDTrackerApp/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lilia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/lilianameriweather/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }
